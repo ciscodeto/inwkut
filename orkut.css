@@ -1,0 +1,73 @@
+.myDiv {
+    background-color: #b3d1eb;
+    text-align: center;
+    padding-top: 2px;
+}
+#publicaDiv {
+    width: 95%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px
+}
+#cadastroDiv {
+    width: 95%;
+    background-color: #b3d1eb;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px
+}
+.profileDiv {
+    padding: 10px;
+    border-style: none;
+}
+input[type=button] {
+    background-color: #8bb4d3;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 10px;
+    margin: 2px 0px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+    input[type=button]:hover {
+        background-color: hsl(208, 48%, 50%);
+        transition: 0.1s;
+    }
+    input[type=button]:active {
+        background-color: #f6ecb1;
+        color:#000000;
+        transition: 0.1s;
+    }
+    input[type=text], input[type=password], select {
+        border-radius: 5px;
+        border-style: none;
+        padding: 5px;
+    }
+body {
+    background-color:#d9e6f7;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profilepic {   
+    border-radius: 10px;
+    height: 100px;
+    border: #7293ad;
+    border-width: 2px;
+    border-style: solid;
+}
+.capapic {
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.miniaturapic {   
+    border-radius: 10px;
+    height: 50px;
+    border: #7293ad;
+    border-width: 2px;
+    border-style: solid;
+}
